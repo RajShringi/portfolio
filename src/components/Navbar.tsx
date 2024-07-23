@@ -10,7 +10,7 @@ import {
 export default function Navbar() {
   return (
     <nav className="flex items-center justify-center sm:justify-between flex-wrap">
-      <h2 className="text-2xl tracking-widest">Raj Shringi</h2>
+      <h2 className="text-lg tracking-widest">RS</h2>
       <ul className="flex items-center gap-10">
         <Link href={"/"}>
           <li className="bg-transparent rounded-full p-2 hover:bg-stone-200">
