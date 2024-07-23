@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@keyframes fromLeft {
+  from {
+    translate: -100px;
+  }
+  to {
+    translate: 0;
+  }
+}
+
+@keyframes fromRight {
+  from {
+    translate: 100px;
+  }
+  to {
+    translate: 0;
+  }
+}
+
+.appear {
+  animation: appear 300ms ease-in-out;
+  animation-timeline: view();
+  animation-range: entry 0 cover 40%;
+}
+
+.from-left {
+  animation: fromLeft 500ms ease-in;
+}
+
+.from-right {
+  animation: fromRight 500ms ease-in;
+}
