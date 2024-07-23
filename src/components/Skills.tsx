@@ -35,7 +35,7 @@ const skills = [
   {
     id: 7,
     img: "/express-original.svg",
-    name: "Express",
+    name: "Express Js",
   },
   {
     id: 8,
@@ -45,7 +45,7 @@ const skills = [
   {
     id: 9,
     img: "/mongodb-original.svg",
-    name: "Node",
+    name: "Mongo DB",
   },
   {
     id: 10,
