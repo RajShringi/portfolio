@@ -68,7 +68,7 @@ export default function Skills() {
         {skills.map((skill) => (
           <div
             key={skill.id}
-            className="self-stretch flex flex-col gap-1 justify-between sm:justify-center items-center p-2 ring-2 ring-stone-500 bg-stone-100 hover:bg-stone-200 rounded-lg w-[30%] sm:w-[20%]"
+            className="self-stretch flex flex-col gap-1 justify-between sm:justify-center items-center p-2 ring-2 ring-stone-500 bg-stone-100 hover:bg-stone-200 rounded-lg w-[30%] sm:w-[20%] appear"
           >
             <Image
               src={skill.img}
