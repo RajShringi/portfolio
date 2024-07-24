@@ -21,12 +21,15 @@ export default function About() {
         that knowledge as much as possible into the work I do.
       </p>
       <div>
-        <Link
-          href={"/"}
+        <a
+          href="/Raj_Shringi_Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
           className="px-6 py-2 rounded-xl ring-2 ring-stone-500 bg-stone-200 hover:bg-stone-300 inline-block"
         >
           Resume
-        </Link>
+        </a>
       </div>
     </section>
   );
