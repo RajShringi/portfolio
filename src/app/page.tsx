@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Navbar from "@/components/Navbar";
+import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 
 export default function Home() {
@@ -9,6 +10,15 @@ export default function Home() {
         <Navbar />
         <About />
         <Skills />
+        <Projects />
+        <div className="py-6 border-t border-stone-500">
+          <p>
+            If you'd like to get in touch, you can reach me:{" "}
+            <span className="text-stone-500 underline">
+              raj24shringi@gmail.com
+            </span>
+          </p>
+        </div>
       </div>
     </main>
   );
