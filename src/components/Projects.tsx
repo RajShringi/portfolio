@@ -58,6 +58,7 @@ export default function Projects() {
                 src={project.images[0]}
                 alt="Raj Shringi"
                 fill
+                sizes="50vw"
                 className="object-cover"
               />
             </div>

@@ -75,7 +75,7 @@ export default function Skills() {
               alt="raj shringi"
               width={30}
               height={30}
-              className="object-cover"
+              className="object-contain h-[30px] w-[30px]"
             />
             <span>{skill.name}</span>
           </div>
