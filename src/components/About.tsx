@@ -6,19 +6,16 @@ export default function About() {
     <section className="flex flex-col gap-4">
       <h2 className="font-semibold text-2xl">Hey, I am Raj Shringi 👋</h2>
       <p>
-        An analytical and detail-oriented FULL STACK Developer who is able to
-        come up with user-centric solutions through the use of JavaScript.
-        Collaborative, team-oriented, and proficient in collaborating and
-        executing goals-oriented projects. Can easily adapt to change, possess
-        eagerness towards learning and contributing to the organization.
+        Hi, I'm Raj Shringi, a passionate MERN stack developer specializing in
+        creating dynamic, responsive, and user-friendly web applications. I have
+        experience building robust full-stack applications. I enjoy solving
+        complex problems and continuously learning new technologies to enhance
+        my skill set. My projects showcase my proficiency in modern web
+        development practices and my dedication to delivering high-quality work.
       </p>
       <p>
-        Looking for an organization where I could improve my skills & knowledge
-        by giving input to the organization A problem-solving mindset with a
-        goal to optimize my application for better stability and speed. Always
-        hard working and looking forward to learning new skills. I love to read
-        about Software Architectures and best practices, and I try to translate
-        that knowledge as much as possible into the work I do.
+        Feel free to explore my projects and get in touch if you want to
+        collaborate or learn more about my work!
       </p>
       <div>
         <a
