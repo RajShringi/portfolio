@@ -9,7 +9,7 @@ import {
 
 export default function Navbar() {
   return (
-    <nav className="flex items-center justify-center sm:justify-between flex-wrap">
+    <nav className="flex items-center justify-center sm:justify-between flex-wrap gap-x-8">
       <h2 className="text-lg tracking-widest from-left">RS</h2>
       <ul className="flex items-center gap-10 from-right">
         <Link href={"https://x.com/RajShringi1"} target="_blank">
