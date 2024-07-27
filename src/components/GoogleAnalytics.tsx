@@ -1,22 +1,23 @@
-import React from "react";
 import Script from "next/script";
+import React from "react";
 
 const GoogleAnalytics = () => {
   return (
-    <head>
+    <>
       <Script
-        strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`}
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-879RZ5VSQJ"
       ></Script>
-      <Script id="" strategy="lazyOnload">
+      <Script id="google-analytics">
         {`
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', '${process.env.NEXT_PUBLIC_MEASUREMENT_ID}');`}
+  gtag('config', 'G-879RZ5VSQJ');
+  `}
       </Script>
-    </head>
+    </>
   );
 };
 
