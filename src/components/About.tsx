@@ -19,7 +19,7 @@ export default function About() {
       </p>
       <div>
         <a
-          href="/Raj_Shringi_Resume.pdf"
+          href="/Raj-Shringi-Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           download
